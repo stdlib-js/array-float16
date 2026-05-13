@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-float16
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import Float16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float16@esm/index.mjs';
+var Float16Array = require( '@stdlib/array-float16' );
 ```
 
 <a name="constructor"></a>
@@ -83,7 +101,7 @@ var len = arr.length;
 Creates a 16-bit half-precision floating-point number array from a [typed array][@stdlib/array/typed].
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var buf = new Float64Array( [ 0.5, 0.5, 0.5 ] );
 // returns <Float64Array>
@@ -112,7 +130,7 @@ var len = arr.length;
 Returns a 16-bit half-precision floating-point number array view of an [`ArrayBuffer`][@stdlib/array/buffer].
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 var buf = new ArrayBuffer( 8 );
 
 var arr = new Float16Array( buf );
@@ -195,7 +213,7 @@ var byteLength = arr.byteLength;
 Offset (in bytes) of the array from the start of its underlying `ArrayBuffer`.
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var arr = new Float16Array( 5 );
 // returns <Float16Array>
@@ -1515,15 +1533,10 @@ var v = out[ 0 ];
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/index.mjs';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import Float16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float16@esm/index.mjs';
+```javascript
+var Uint16Array = require( '@stdlib/array-uint16' );
+var logEach = require( '@stdlib/console-log-each' );
+var Float16Array = require( '@stdlib/array-float16' );
 
 // Create a half-precision floating-point number array by specifying a length:
 var out = new Float16Array( 3 );
@@ -1543,10 +1556,6 @@ logEach( '%s', out );
 arr = new Uint16Array( [ 1000, 2000, 3000, 4000 ] );
 out = new Float16Array( arr.buffer, 2, 2 );
 logEach( '%s', out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -1578,7 +1587,7 @@ logEach( '%s', out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -1643,9 +1652,9 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/esm
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/esm
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
 <!-- <related-links> -->
 
