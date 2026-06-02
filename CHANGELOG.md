@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-31)
+## Unreleased (2026-06-02)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`6cb4896`](https://github.com/stdlib-js/stdlib/commit/6cb4896bb086d8bc095ffd06539a32ad59f71e1e) - **docs:** update related packages sections [(#12437)](https://github.com/stdlib-js/stdlib/pull/12437) _(by stdlib-bot)_
 -   [`003cb6e`](https://github.com/stdlib-js/stdlib/commit/003cb6ec82ce83ad9dd4d972aabe316a10da382d) - **fix:** ensure error message is consistent with project conventions _(by Athan Reines)_
 -   [`4f28e69`](https://github.com/stdlib-js/stdlib/commit/4f28e6916d4242d02918457f6480b01d42f980c9) - **fix:** ensure consistent error messages _(by Athan Reines)_
 -   [`a1aabee`](https://github.com/stdlib-js/stdlib/commit/a1aabee8d9e187f3c9bc35be085a2a434f15a515) - **chore:** normalize `main` field to `./lib` in `array/base` and `array/float16` package.json [(#12110)](https://github.com/stdlib-js/stdlib/pull/12110) _(by Philipp Burckhardt)_
