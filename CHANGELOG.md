@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-07-05)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`e6f8766`](https://github.com/stdlib-js/stdlib/commit/e6f8766fa9a929d09d40422d0f8edd0ca7a422ea) - **refactor:** extend defined interface _(by Athan Reines)_
 -   [`5b6be64`](https://github.com/stdlib-js/stdlib/commit/5b6be64587688c406328bccb5e3c3bb2bd60e5ef) - **fix:** avoid cyclic dependency and update return annotations _(by Athan Reines)_
 -   [`3901886`](https://github.com/stdlib-js/stdlib/commit/3901886ff5ff6bdbcfd65ea52109fee0b0e1ff03) - **docs:** fix examples and descriptions in top-level `array` declarations [(#12375)](https://github.com/stdlib-js/stdlib/pull/12375) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6cb4896`](https://github.com/stdlib-js/stdlib/commit/6cb4896bb086d8bc095ffd06539a32ad59f71e1e) - **docs:** update related packages sections [(#12437)](https://github.com/stdlib-js/stdlib/pull/12437) _(by stdlib-bot)_
