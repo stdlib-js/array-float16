@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-19)
+## Unreleased (2026-09-25)
 
 <section class="features">
 
@@ -29,12 +29,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#15176](https://github.com/stdlib-js/stdlib/issues/15176)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`b3d5c20`](https://github.com/stdlib-js/stdlib/commit/b3d5c20526a6d64f3c01599096639ef7b7733769) - **chore:** fix JavaScript lint errors [(#15177)](https://github.com/stdlib-js/stdlib/pull/15177) _(by Aditya Pratap Singh)_
 -   [`6b88a63`](https://github.com/stdlib-js/stdlib/commit/6b88a637281fd936f6526c40df69299cf72463c5) - **fix:** add missing index signature to Float16Array class declaration [(#13332)](https://github.com/stdlib-js/stdlib/pull/13332) _(by Philipp Burckhardt, Athan Reines)_
 -   [`e6f8766`](https://github.com/stdlib-js/stdlib/commit/e6f8766fa9a929d09d40422d0f8edd0ca7a422ea) - **refactor:** extend defined interface _(by Athan Reines)_
 -   [`5b6be64`](https://github.com/stdlib-js/stdlib/commit/5b6be64587688c406328bccb5e3c3bb2bd60e5ef) - **fix:** avoid cyclic dependency and update return annotations _(by Athan Reines)_
@@ -55,8 +68,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aditya Pratap Singh
 -   Athan Reines
 -   Gururaj Gurram
 -   Philipp Burckhardt
